@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eilerskov/jdaNikoPeter.git"
+    "url": "git+https://github.com/nikolai001/Wumbly.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eilerskov/jdaNikoPeter/issues"
+    "url": "https://github.com/nikolai001/Wumbly/issues"
   },
-  "homepage": "https://github.com/eilerskov/jdaNikoPeter#readme",
+  "homepage": "https://github.com/nikolai001/Wumbly#readme",
   "dependencies": {
     "bootstrap": "^4.6.0"
   },
