@@ -37,3 +37,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.navbar {
+  padding: 0!important;
+  .logo{
+    a{
+      img{
+        min-width: 135px;
+      }
+    }
+  }
+  .navbar-toggler{
+    border: 0;
+  }
+
+}
+
+

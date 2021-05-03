@@ -12,19 +12,56 @@
     <meta name="author" content="Nikolai Raahauge">
     <meta name="copyright" content="© Copyright 2019 Nikolai Raahauge">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-jdaWhite">
+    <div class="logo pl-4 pt-4">
+        <a href="index.html">
+            <img src="images/Logo1.svg">
+        </a>
+    </div>
+    <div class="rightNav d-flex align-items-center pt-4 pr-4">
 
-<div class="container">
 
-</div>
+        <button class="navbar-toggler burgerBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class="collapse navbar-collapse bg-darkIron mt-3 text-plainWhite" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mr-lg-0 align-items-center ml-lg-auto">
+            <li class="nav-item active pr-lg-3">
+                <a class="nav-link text-plainWhite" href="index.html">FORSIDE<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item pr-lg-3 d-lg-none">
+                <a class="nav-link text-plainWhite" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item pr-lg-3">
+                <a class="nav-link text-plainWhite" href="#">OM OS</a>
+            </li>
+            <li class="nav-item d-lg-none">
+                <a class="nav-link text-plainWhite" href="contact.html">KONTAKT</a>
+            </li>
+            <a class="d-none d-lg-inline mr-lg-5" href="contact.html">
+                <button type="button" class="btn btn-primary mx-lg-auto bg-jdaBlue">KONTAKT</button>
+            </a>
+        </ul>
+    </div>
+</nav>
+
+
 
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+
 <script src="js/anims.min.js"></script>
 </html>
