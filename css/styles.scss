@@ -1,6 +1,8 @@
 @import 'colors';
 @import 'fonts';
 
+$tablet: "screen and (min-width: 768px)";
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -8,7 +10,6 @@
 
 
 body {
-  background-color: #e0e0e0;
   overscroll-behavior: contain;
   margin: 0;
   font-family: 'Open Sans', sans-serif !important;
@@ -56,29 +57,39 @@ img {
 
 }
 
-.container-md{
+.sektion1{
   min-height: 100vh;
   background-image: url(../images/mobileBG.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: black;
   font-style: normal;
   color: white;
+  @media #{$tablet} {
+    background-image: url(../images/headerBig.png);
+  }
+
   .headLine{
     h1{
       font-size: 25px;
       padding-top: 150px;
       font-weight: 600;
+      @media #{$tablet} {
+        font-size: 35px;
+      }
     }
   }
   .catchLine{
-    font-size: 12px;
+    p{
+    font-size: 14px;
+    @media #{$tablet} {
+      font-size: 18px;
+    }
+    }
   }
 
   .sektionButtons{
-    margin-top: 75px;
     button{
       background-color: #0b2e13;
       border: none;
@@ -91,11 +102,9 @@ img {
 
   }
   .soMe{
-    margin-top: 120px;
   }
 
   .arrow{
-    margin-top: 160px;
   }
 }
 
