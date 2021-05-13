@@ -1,0 +1,29 @@
+@import 'colors';
+@import 'fonts';
+
+
+.mainContainer{
+  .kontaktGrid{
+    .kontaktForm{
+      .kontaktHeader{
+        h2{
+          font-size: 18px;
+          font-weight: bold;
+          color: #266E82;
+        }
+      }
+      form{
+        input{
+          background-color: #F3F3F3;
+          border: none;
+        }
+        label{
+          font-size: 13px;
+        }
+        .btn{
+          min-width: 117px;
+        }
+      }
+    }
+  }
+}

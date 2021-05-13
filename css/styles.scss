@@ -19,6 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 ul, ol {
@@ -41,6 +42,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
 
 .navbar {
   padding: 0!important;
@@ -108,4 +111,107 @@ img {
   }
 }
 
+.sektion2{
+  min-height: 100vh;
+  .gridParent{
+    .textBox1{
+      h2{
+        font-size: 18px;
+        font-weight: bold;
+        color: #266E82;
+      }
+      p{
+        color: #707070;
+        text-align: justify;
+      }
+    }
+    .icons{
+      img{
+        min-width: 55px;
+      }
+    }
+    .textBox2{
+      h2{
+        font-size: 18px;
+        font-weight: bold;
+        color: #266E82;
+      }
+      p{
+        color: #707070;
+        text-align: justify;
+      }
+    }
+    .ctaBtn{
+      button{
+        background-color: #0b2e13;
+        border: none;
+        border-radius: 8px;
+        min-width: 117px;
+        min-height: 28px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.sektion3{
+  min-height: 100vh;
+  background-image: url(../images/mobileBG.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-style: normal;
+  color: white;
+    .sektion3Header{
+      h2{
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+    .splitPayment{
+      h2{
+        font-size: 18px;
+        font-weight: bold;
+      }
+      button{
+        background-color: #0b2e13;
+        border: none;
+        border-radius: 8px;
+        min-width: 117px;
+        min-height: 28px;
+        cursor: pointer;
+      }
+
+    }
+}
+
+
+.footer{
+  .footerText{
+    h3{
+      font-size: 15px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  .seperator{
+    background-color: white;
+    min-height: 1px;
+  }
+  .logoAndRules{
+    .logo{
+      img{
+        min-width: 135px;
+      }
+    }
+    .rules{
+      a{
+        color: white;
+        font-size: 14px;
+      }
+    }
+  }
+}
 
