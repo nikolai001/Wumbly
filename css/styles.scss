@@ -188,6 +188,19 @@ img {
       }
 
     }
+
+  .container{
+    .card{
+      min-height: 500px;
+    }
+    .textStyle{
+      color: #0c5460;
+    }
+    button{
+      border-radius: 10px;
+      min-width: 117px;
+    }
+  }
 }
 
 
