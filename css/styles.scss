@@ -112,8 +112,11 @@ img {
 }
 
 .sektion2{
-  min-height: 100vh;
   .gridParent{
+    .imgContainer{
+      img{
+      }
+    }
     .textBox1{
       h2{
         font-size: 18px;
@@ -123,6 +126,7 @@ img {
       p{
         color: #707070;
         text-align: justify;
+        font-size: 14px;
       }
     }
     .icons{
