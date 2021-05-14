@@ -115,6 +115,7 @@ img {
 }
 
 .sektion2{
+  overflow-x:hidden;
   .gridParent{
     .imgContainer{
       img{
@@ -136,6 +137,7 @@ img {
       img{
         min-width: 55px;
       }
+
     }
     .textBox2{
       h2{
