@@ -126,19 +126,30 @@ if ( screenWidth > tablet ){
 
     const facebookIcon = document.querySelector('#fb');
 
-    let hovering = false;
+    let hoveringFB = false; // Ulækkert
 
-    function toggleHover(){
-        hovering = false;
-        console.log(hovering)
+    let hoveringLI = false; // Ulækkert
+
+    let hoveringIG = false; // Ulækkert
+
+    function toggleHoverFB(){ // Ulækkert
+        hoveringFB = false;  // Ulækkert
+    }
+
+    function toggleHoverLI(){ // Ulækkert
+        hoveringLI = false;  // Ulækkert
+    }
+
+    function toggleHoverIG(){ // Ulækkert
+        hoveringIG = false;  // Ulækkert
     }
 
     facebookIcon.addEventListener("mouseenter", e =>  {
 
-        let shakingicon =  gsap.timeline({onComplete:toggleHover,paused:true});
+        let shakingicon =  gsap.timeline({onComplete:toggleHoverFB,paused:true}); //Dynamisk kode er overvurderet når man bare kan copy paste 3-4 gange
 
-        if (hovering == false){
-            hovering = true;
+        if (hoveringFB == false){
+            hoveringFB = true;
             shakingicon.to('#fb',{rotation:10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
             shakingicon.to('#fb',{rotation:-10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
             shakingicon.to('#fb',{rotation:10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
@@ -149,10 +160,10 @@ if ( screenWidth > tablet ){
 
     const linkedInIcon = document.querySelector('#li');
 
-    linkedInIcon.addEventListener("mouseenter", e =>  {
-        let shakingicon =  gsap.timeline({onComplete:toggleHover,paused:true});
-        if (hovering == false){
-            hovering = true;
+    linkedInIcon.addEventListener("mouseenter", e =>  { //Dynamisk kode???? Aldrig hørt om det
+        let shakingicon =  gsap.timeline({onComplete:toggleHoverLI,paused:true});
+        if (hoveringLI == false){
+            hoveringLI = true;
             shakingicon.to('#li',{rotation:10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
             shakingicon.to('#li',{rotation:-10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
             shakingicon.to('#li',{rotation:10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
@@ -163,10 +174,10 @@ if ( screenWidth > tablet ){
 
     const instagramIcon = document.querySelector('#ig');
 
-    instagramIcon.addEventListener("mouseenter", e =>  {
-        let shakingicon =  gsap.timeline({onComplete:toggleHover,paused:true});
-        if (hovering == false){
-            hovering = true;
+    instagramIcon.addEventListener("mouseenter", e =>  { //nightmare nightmare nightmare nightmare nightmare nightmare
+        let shakingicon =  gsap.timeline({onComplete:toggleHoverIG,paused:true});
+        if (hoveringIG == false){
+            hoveringIG = true;
             shakingicon.to('#ig',{rotation:10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
             shakingicon.to('#ig',{rotation:-10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
             shakingicon.to('#ig',{rotation:10,repeat:1,yoyo:true,duration:0.15,ease:'back.Inout'});
