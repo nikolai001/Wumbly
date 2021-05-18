@@ -1,5 +1,4 @@
 @import 'colors';
-@import 'fonts';
 
 $tablet: "screen and (min-width: 768px)";
 
@@ -68,7 +67,6 @@ img {
   background-image: url(../images/mobileBG.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   font-style: normal;
   color: white;
@@ -177,10 +175,9 @@ img {
 
 .sektion3{
   min-height: 100vh;
-  background-image: url(../images/mobileBG.jpg);
+  background-image: url(../images/sektion3bg.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   font-style: normal;
   color: white;
@@ -188,6 +185,7 @@ img {
       h2{
         font-size: 18px;
         font-weight: bold;
+        margin-top: 85px;
       }
     }
     .splitPayment{
@@ -206,7 +204,35 @@ img {
 
     }
 
+  .d-lg-none{
+    .card{
+      .collapse{
+        .card-body{
+          .kortLinje{
+            min-height: 1px;
+            min-width: 100%;
+          }
+          p{
+            font-family: Open Sans, sans-serif;
+            span{
+              font-size: 33px;
+            }
+          }
+          button{
+            background-color: #0b2e13;
+            border: none;
+            border-radius: 8px;
+            min-width: 117px;
+            min-height: 28px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
   .container{
+
     .card{
       min-height: 500px;
     }
@@ -217,6 +243,25 @@ img {
       border-radius: 10px;
       min-width: 117px;
     }
+    .cardContainer{
+      .col{
+        .card{
+          .card-body
+            .d-flex{
+              .kortLinje{
+                min-height: 1px;
+                min-width: 100%;
+              }
+            p{
+              font-family: Open Sans, sans-serif;
+              span{
+                font-size: 33px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -225,6 +270,7 @@ img {
   .footerText{
     h3{
       font-size: 15px;
+      font-weight: bold;
     }
     p{
       font-size: 14px;

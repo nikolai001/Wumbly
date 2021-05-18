@@ -1,0 +1,28 @@
+@import 'colors';
+
+
+.mainContainer{
+  min-height: 70vh;
+}
+
+.textBox1{
+  h1{
+    color: $ironLite;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Open Sans, sans-serif;
+  }
+  h3{
+    color: $ironLite;
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;
+  }
+  button{
+    background-color: #0b2e13;
+    border: none;
+    border-radius: 8px;
+    min-width: 117px;
+    min-height: 28px;
+    cursor: pointer;
+  }
+}

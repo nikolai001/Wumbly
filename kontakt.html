@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Skabelon</title>
+    <title>Kontakt</title>
 
     <meta name="robots" content="All">
     <meta name="keywords" content="">
@@ -20,11 +20,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $(function(){
-            $("#footer").load("footer.html");
-        });
-    </script>
+
 </head>
 
 <body>
@@ -43,29 +39,33 @@
         </button>
     </div>
 
-    <div class="collapse navbar-collapse bg-darkIron mt-3 mb-5 text-plainWhite" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse bg-darkIron mt-2 mr-3 text-plainWhite" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto mr-lg-0 align-items-center ml-lg-auto">
             <li class="nav-item active pr-lg-3">
                 <a class="nav-link text-plainWhite" href="index.html">FORSIDE<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item pr-lg-3 d-lg-none">
-                <a class="nav-link text-plainWhite" href="services.html">SERVICES</a>
+            <li class="nav-item pr-lg-3">
+                <a class="nav-link text-plainWhite" href="basis.html">BASIS-PAKKEN</a>
+            </li>
+
+            <li class="nav-item pr-lg-3">
+                <a class="nav-link text-plainWhite" href="pro.html">PRO-PAKKEN</a>
             </li>
             <li class="nav-item pr-lg-3">
-                <a class="nav-link text-plainWhite" href="#">OM OS</a>
+                <a class="nav-link text-plainWhite" href="webshop.html">WEBSHOP</a>
             </li>
-            <li class="nav-item d-lg-none">
-                <a class="nav-link text-plainWhite" href="contact.html">KONTAKT</a>
+            <li class="nav-item">
+                <a class="nav-link text-plainWhite" href="kontakt.html">KONTAKT</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<div class="container-fluid mainContainer mt-5">
-    <div class="kontaktGrid mt-5">
+<div class="container-fluid mainContainer mt-5 container-md d-md-flex align-items-md-center">
+    <div class="kontaktGrid mt-5 col-md-6 mr-md-3">
         <div class="kontaktForm">
             <div class="kontaktHeader pt-4">
-                <h2 class="pt-5">ALLE HAR RÅD TIL EN FED HJEMMESIDE</h2>
+                <h2 class="pt-5 pt-md-0">ALLE HAR RÅD TIL EN FED HJEMMESIDE</h2>
             </div>
 
             <form class="row g-3 needs-validation" novalidate>
@@ -111,12 +111,74 @@
         </div>
 
     </div>
-</div>
-<div class="kontaktImg mt-5">
-    <img src="images/fillerImg.png" alt="Kontakt Wumbly">
+    <div class="kontaktImg mt-5 col-md-6">
+        <img src="images/Kontakt%20os%20(illustration).svg" alt="Kontakt Wumbly">
+    </div>
 </div>
 
-<div id="footer"></div>
+
+<div class="container-fluid pb-4 footer bg-darkIron">
+    <div class="container">
+        <div class="footerText text-center text-white">
+            <h3 class="py-4">
+                ER DU KLAR TIL AT BLIVE SET PÅ INTERNETTET?
+            </h3>
+            <p class="text-white text-center mb-5">
+                Kontakt os i dag for et uforpligtende tilbud.
+            </p>
+        </div>
+
+        <div class="seperator my-3"></div>
+
+        <div class="kontaktInfo d-md-flex justify-content-md-between">
+            <div class="info d-none d-md-flex text-white mt-3">
+                <p>
+                    +45 71 78 79 69
+                </p>
+
+                <p class="ml-3">
+                    kontakt@wumbly.dk
+                </p>
+            </div>
+
+            <div class="socials d-flex justify-content-center mt-md-2">
+                <a class="mx-4" href="#">
+                    <img src="images/facebook-square.svg" alt="Facebook">
+                </a>
+
+                <a class="mx-4" href="#">
+                    <img src="images/linkedin-square.svg" alt="LinkedIn">
+                </a>
+
+                <a class="mx-4" href="#">
+                    <img src="images/instagram.svg" alt="Facebook">
+                </a>
+            </div>
+        </div>
+
+        <div class="seperator my-3"></div>
+
+        <div class="logoAndRules mb-5 d-md-flex justify-content-md-between">
+            <div class="logo pt-3 d-flex justify-content-center">
+                <a href="index.html">
+                    <img src="images/Logo1.svg">
+                </a>
+            </div>
+
+            <div class="rules d-flex justify-content-between justify-content-md-end mt-5 mt-md-4">
+                <a class="mx-md-3" href="#">
+                    Cookies
+                </a>
+                <a class="mx-md-3" href="#">
+                    Privatlivspolitik
+                </a>
+                <a class="ml-md-3" href="#">
+                    Handelsbetingelser
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 </body>
